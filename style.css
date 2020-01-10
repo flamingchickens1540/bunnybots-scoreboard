@@ -1,0 +1,97 @@
+/* body */
+body{
+  overflow-x: hidden;
+}
+
+/* logo */
+.logo {
+  text-align: center;
+}
+
+/* count down */
+.clock {
+  text-align: center;
+  font-size: 20vw;
+}
+
+.startButton{
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  width: 20%;
+  text-align: center;
+}
+
+/* scores */
+
+.scoresContainer {
+  margin-top: 10%;
+  text-align: center;
+}
+
+.score{
+  margin: auto;
+  border-radius: 25px;
+  font-size: 20vw;
+  color: white;
+}
+
+#blue {
+  background-color: blue;
+}
+#red {
+  background-color: red;
+}
+
+/* controls */
+.controlButtons {
+  position: absolute;
+  bottom: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.controlButtons li {
+  float: left;
+}
+
+.controlButtons li a {
+  display: block;
+  text-align: center;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* round and alliances */
+.rounds {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  font-size: 3vw;
+}
+
+#round {
+  text-align: center;
+}
+
+.redAlliance {
+  position: absolute;
+  top: 0;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.blueAlliance {
+  text-align: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+}

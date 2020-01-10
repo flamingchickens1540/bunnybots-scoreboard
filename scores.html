@@ -1,0 +1,50 @@
+<DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  </head>
+  <body class="body">
+    <!-- Change this code -->
+    <div class="scoresContainer row">
+      <div class="col-1"></div>
+      <div class="col-5">
+        <div id="red" class="score">
+          <p id="redScore">999</p>
+        </div>
+      </div>
+      <div class="col-5">
+        <div id="blue" class="score">
+          <p id="blueScore">9</p>
+        </div>
+      </div>
+      <div class="col-1"></div>
+    </div>
+    <div class="rounds">
+      <p id="round"></p>
+      <div class="redAlliance">
+        <p id="allianceA"></p>
+      </div>
+      <div class="blueAlliance">
+        <p id="allianceB"></p>
+      </div>
+    </div>
+
+    <!-- Controls for all pages -->
+    <!-- <div class="controls">
+      <ul class="controlButtons">
+        <li><a href="logo.html">Logo</a></li>
+        <li><a href="countDown.html">Count Down</a></li>
+        <li><a href="scores.html">Scores</a></li>
+        <li><a href="rank.html">Ranks</a></li>
+    </div> -->
+
+    <script src="scores.js"></script>
+    <script>
+      document.getElementById('red').innerHTML = redScore;
+      document.getElementById('blue').innerHTML = blueScore;
+    </script>
+    <script src="ranks.js"></script>
+    <script src="allianceLoader.js"></script>
+  </body>
+</html>
